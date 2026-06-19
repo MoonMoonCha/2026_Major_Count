@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>2026全国本科专业开设院校数量统计· 极客冷蓝</title>
+<title>2021-2026全国本科专业新增与撤销统计· 极客冷蓝</title>
 <style>
 /* ============================================================
    CSS Variables & Theme
@@ -546,8 +546,11 @@ td.rank-cell {
   <!-- ===== HEADER ===== -->
   <div class="header">
     <div class="header-left">
-      <h1>2026全国本科专业开设院校数量统计</h1>
-      <p class="subtitle">2026VS2021开设院校数对比 &nbsp;·&nbsp; 2025专业撤销数统计 &nbsp;·&nbsp; by 月亮猹—<a href="https://space.bilibili.com/421178217" target="_blank" style="color:var(--accent);text-decoration:none;letter-spacing:.02em;">https://space.bilibili.com/421178217</a></p>
+        <h1>2021-2026年全国本科专业新增与撤销数量统计</h1>
+      <p class="subtitle">当前网址：https://www.axureshow.com/project/17gIDQRN/ &nbsp;·&nbsp; 2026VS2021开设院校数对比 &nbsp;·&nbsp; 2025专业撤销数统计 &nbsp;·&nbsp; by UP主 月亮猹—<a href="https://space.bilibili.com/421178217" target="_blank" style="color:var(--accent);text-decoration:none;letter-spacing:.02em;">https://space.bilibili.com/421178217</a>
+        
+         <svg t="1781704161443" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="48526" width="30" height="30"><path d="M512 977.454545C254.929455 977.454545 46.545455 769.070545 46.545455 512S254.929455 46.545455 512 46.545455s465.454545 208.384 465.454545 465.454545a465.454545 465.454545 0 0 1-465.454545 465.454545zM367.941818 246.039273a33.233455 33.233455 0 0 0 0 66.466909h288.116364a33.233455 33.233455 0 0 0 0-66.466909h-288.116364z m177.338182 123.205818V312.506182h-66.56v56.785454A210.106182 210.106182 0 0 0 279.272727 578.466909v44.311273a33.233455 33.233455 0 0 0 66.513455 0v-44.311273a143.639273 143.639273 0 0 1 132.980363-142.754909v310.318545a33.233455 33.233455 0 1 0 66.46691 0V435.758545a143.639273 143.639273 0 0 1 132.980363 142.75491v44.311272a33.233455 33.233455 0 0 0 66.513455 0v-44.311272a210.106182 210.106182 0 0 0-199.493818-209.268364z" fill="#FB7299" p-id="48527"></path></svg>
+        </p>
     </div>
     <div class="header-right">
       <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">
@@ -622,7 +625,7 @@ td.rank-cell {
       <span id="footerRight">点击列表头排序 · 鼠标悬停查看裁撤院校</span>
     </div>
     <div style="padding:10px 16px 6px;font-size:11px;color:var(--text-muted);line-height:1.8;letter-spacing:.02em;">
-      专业名录按教育部《本科专业目录（2026年）》，26年开设院校统计自掌上高考，21年开设院校统计自作者：木下学python，25年撤销专业统计自元宝高考通。
+        专业名录按教育部《本科专业目录（2026年）》，26年开设院校统计自掌上高考（院校数会动态变化，本网页记录为2026年6月5日数据），21年开设院校统计自作者：木下学python，25年撤销专业统计自元宝高考通（信息来源AI，仅供参考）。
     </div>
   </div>
 
@@ -662,7 +665,7 @@ const COLUMNS = [
   { key: 'change_value',      label: '变化数量',      type: 'num',    width: 88,  visible: true,  sortable: true },
   { key: 'change_rate',       label: '变化比例',      type: 'rate',   width: 88,  visible: true,  sortable: true },
   { key: 'revoked_2025_count',label: '2025裁撤数',    type: 'badge',  width: 88,  visible: true,  sortable: true },
-  { key: 'revoked_2025_schools', label: '裁撤院校',   type: 'schools', width: 240, visible: true,  sortable: false },
+  { key: 'revoked_2025_schools', label: '2025裁撤院校（此列AI统计仅供参考）',   type: 'schools', width: 240, visible: true,  sortable: false },
 ];
 
 // ────────────────────────────────────────────────────────────
